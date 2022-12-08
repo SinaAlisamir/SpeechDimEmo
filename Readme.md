@@ -1,7 +1,5 @@
 # Real-Time Emotion Recognition from Speech
 
-[TOC]
-
 ## Overview
 
 ![OverallDemo](./Figures/DEMO2.png)**Buffering**: Saves the last x seconds (x being an arbitrary number) to a file. Then all the other modules are performed based on the "buffered" audio file. 
