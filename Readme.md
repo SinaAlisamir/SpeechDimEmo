@@ -38,10 +38,11 @@ conda install -c conda-forge speechrecognition=3.7.1
 ## Emotion prediction probability from a file 
 
 ```python
+from SER_Module import SER_Module
 file_path = "a path to a wav path with sampling rate of 16khz"
 SERmodelPath="./Models/valence_MFB_standardized_GRU_32-1_0/model.pth"
 SERModule = SER_Module(modelPath=SERmodelPath, device="cpu")
-serOuts = SER(savePathBuffer, SERModule, device=device, outputFolder="./outputs")
+serOuts = SERModule.getEmo(file_path)
 ```
 
 ## Running the demo
