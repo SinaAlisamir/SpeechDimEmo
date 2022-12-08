@@ -8,9 +8,6 @@
 
 **Speaker Emotion Recognition (SER)**: Detects emotion (arousal or valence) for each detected speech segment.
 
-In case of any questions please send an email to [sina.alisamir@gmail.com](mailto:sina.alisamir@gmail.com)
-
-
 
 ## Installation
 
