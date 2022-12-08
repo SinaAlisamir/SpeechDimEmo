@@ -1,4 +1,4 @@
-# Real-Time Emotion Recognition from Speech - version 2
+# Real-Time Emotion Recognition from Speech
 
 [TOC]
 
