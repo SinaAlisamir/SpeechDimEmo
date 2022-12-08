@@ -35,7 +35,14 @@ conda install -c anaconda scipy=1.6.2
 conda install -c conda-forge speechrecognition=3.7.1
 ```
 
+## Emotion prediction probability from a file 
 
+```python
+file_path = "a path to a wav path with sampling rate of 16khz"
+SERmodelPath="./Models/valence_MFB_standardized_GRU_32-1_0/model.pth"
+SERModule = SER_Module(modelPath=SERmodelPath, device="cpu")
+serOuts = SER(savePathBuffer, SERModule, device=device, outputFolder="./outputs")
+```
 
 ## Running the demo
 
